@@ -1,0 +1,25 @@
+<html>
+
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src="/js/jquery.js"></script>
+<script src="socket.io/socket.io.js"></script>
+<script src="/js/xuly.js"></script>
+<title>SP</title>
+
+<body>
+    <!-- <audio id="sound1" src="/sounds/Test-Loa-No-Name.mp3" preload="auto"></audio> -->
+    <div style="text-align: center;">
+        <div style="clear:both;
+            min-width: 220px;
+            margin: auto; margin-top: 300px;">
+            <audio id="sound1" controls>
+                <source src="/sounds/Test-Loa-No-Name.mp3" type="audio/mpeg">
+            </audio>
+
+            <button id="btnsp" hidden onclick="document.getElementById('sound1').play();">Test-Loa-No-Name.mp3</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
